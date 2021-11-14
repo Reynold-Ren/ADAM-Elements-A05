@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="34px" viewBox="0 0 68 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>icon/usb-a_3.1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/usb-a_3.1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle">
+            <path d="M64,0 C66.209139,0 68,1.790861 68,4 L68,30 C68,32.209139 66.209139,34 64,34 L4,34 C1.790861,34 0,32.209139 0,30 L0,4 C0,1.790861 1.790861,0 4,0 L64,0 Z M64,3 L4,3 C3.48716416,3 3.06449284,3.38604019 3.00672773,3.88337887 L3,4 L3,30 C3,30.5128358 3.38604019,30.9355072 3.88337887,30.9932723 L4,31 L64,31 C64.5128358,31 64.9355072,30.6139598 64.9932723,30.1166211 L65,30 L65,4 C65,3.48716416 64.6139598,3.06449284 64.1166211,3.00672773 L64,3 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <rect fill="#FF4B3A" x="8" y="8" width="52" height="8" rx="1"></rect>
+        </g>
+    </g>
+</svg>

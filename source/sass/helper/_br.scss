@@ -1,0 +1,23 @@
+.desktopBrSetting {
+  display: block;
+  @include media($tablet-landscape) {
+    display: none;
+  }
+}
+
+.PadBrSetting {
+  display: none;
+  @include media($tablet-landscape) {
+    display: block;
+  }
+  @include media($tablet-portrait) {
+    display: none;
+  }
+}
+
+.mobileBrSetting {
+  display: none;
+  @include media($tablet-portrait) {
+    display: block;
+  }
+}

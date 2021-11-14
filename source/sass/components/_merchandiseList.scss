@@ -1,0 +1,32 @@
+.merchandise__list {
+  max-width: 1200px;
+  a {
+    flex: 0 0 31.33333%;
+    max-width: 31.33333%;
+    margin: 0 1%;
+    @include media($tablet-landscape) {
+      flex: 0 0 calc(50% - 30px);
+      max-width: calc(50% - 30px);
+      margin: 0 15px;
+    }
+    @include media($tablet-portrait) {
+      flex: 0 0 calc(100% - 16px);
+      max-width: calc(100% - 16px);
+      margin: 0 auto;
+    }
+    h3 {
+      font-size: 24px;
+      line-height: 1.33;
+      color: #222;
+      margin-top: 16px;
+      margin-bottom: 8px;
+      @include media($tablet-landscape) {
+        font-size: 22px;
+      }
+    }
+    p {
+      color: #595959;
+      line-height: 1.3;
+    }
+  }
+}

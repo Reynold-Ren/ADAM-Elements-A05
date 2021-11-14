@@ -1,0 +1,19 @@
+.buy__btn {
+  display: inline-block;
+  max-width: 130px;
+  max-height: 50px;
+  line-height: 50px;
+  padding: 0px 45px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: .3px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  background-color: #EB1F24;
+  border-radius: 50px;
+  transition: .3s all;
+  &:hover, &:active, &:focus {
+    background-color: #F9B0B2;
+  }
+}

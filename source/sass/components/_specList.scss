@@ -1,0 +1,12 @@
+.spec__list {
+  &__item {
+    &__title, &__content {
+      font-size: 18px;
+      line-height: 1.56;
+      letter-spacing: .3px;
+    }
+    &__title {
+      font-weight: bold;
+    }
+  }
+}

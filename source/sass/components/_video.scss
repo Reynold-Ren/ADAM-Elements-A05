@@ -1,0 +1,98 @@
+.product__video {
+  line-height: 0;
+  video {
+      min-width: 100%;
+      height: auto;
+      z-index: 1;
+      @include media($tablet-portrait) {
+        max-width: 100%;
+      }
+  }
+  a {
+      @extend %center;
+      width: 132px;
+      height: 52px;
+      line-height: 52px;
+      font-size: 18px;
+      font-weight: 500;
+      letter-spacing: .3px;
+      color: #fff;
+      border: 1px solid #fff;
+      border-radius: 30px;
+      transition: .3s all;
+      text-decoration: none;
+      @include media($tablet-landscape) {
+          bottom: 0;
+          top: 0;
+          margin: auto;
+      }
+      &:hover {
+          background-color: #fff;
+          color: #161616;
+      }
+  }
+}
+
+.video__modal {
+  display: none;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3000;
+  background-color: rgba(0,0,0,0.95);
+  z-index: 10000;
+  &.active {
+      display: flex !important;
+  }
+  .video__wrapper {
+      width: 100%;
+      max-width: 1140px;
+      @include media($tablet-landscape) {
+        max-width: 720px;
+      }
+      @include media($tablet-portrait) {
+        max-width: 540px;
+      }
+      &::before {
+          padding-bottom: 56.25%;
+          content: '';
+          display: block;
+      }
+      video {
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+      }
+      .play__btn {
+          @include circle(100px, #FE2926);
+          display: flex;
+          @extend %center;
+          @include media($tablet-portrait) {
+              @include circle(70px, #FE2926);
+              display: flex;
+          }
+          i {
+              font-size: 32px;
+              color: white;
+              @include media($tablet-portrait) {
+                  font-size: 18px;
+              }
+          }
+      }
+  }
+  .video__closebtn {
+      right: 45px;
+      top: 25px;
+      cursor: pointer;
+      @include media($tablet-portrait) {
+          right: 20px;
+          top: 15px;
+      }
+      i {
+          font-size: 32px;
+          color: #C1C1C3;        
+      }
+  }
+}

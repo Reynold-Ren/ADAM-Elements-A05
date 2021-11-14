@@ -1,0 +1,26 @@
+@import 'init';
+@import 'reset';
+
+//layout
+@import './layout/header';
+@import './layout/footer';
+
+//helper
+@import './helper/tools';
+@import './helper/fonts';
+@import './helper/br';
+
+//components
+@import './components/tags';
+@import './components/btn';
+@import './components/merchandiseList';
+@import './components/specList';
+@import './components/fixedMenu';
+@import './components/video';
+
+//vendor
+@import './vendor/slick';
+@import './vendor/slick-theme';
+
+//page
+@import './page/index';

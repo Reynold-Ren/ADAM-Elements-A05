@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="30px" viewBox="0 0 18 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>BTN/slider_switch/left-BK</title>
+    <desc>Created with Sketch.</desc>
+    <g id="BTN/slider_switch/left-BK" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="btn/slider_switch/left" transform="translate(9.000000, 15.000000) rotate(-360.000000) translate(-9.000000, -15.000000) translate(2.000000, 2.000000)" fill="#4A4A4A" fill-rule="nonzero">
+            <path d="M12.9793234,-1.09919024 C13.5863894,-1.66289439 14.5354861,-1.62774265 15.0991902,-1.02067665 C15.6276629,-0.451552269 15.6297973,0.418185056 15.1277928,0.989156984 L15.0206766,1.09919024 L2.204,12.9999936 L15.0206766,24.9008098 C15.589801,25.4292824 15.6562664,26.296479 15.1978735,26.9030212 L15.0991902,27.0206766 C14.5707176,27.589801 13.703521,27.6562664 13.0969788,27.1978735 L12.9793234,27.0991902 L-1.02067665,14.0991902 C-1.62218046,13.540651 -1.65756304,12.6118094 -1.12682438,12.0097052 L-1.02067665,11.9008098 L12.9793234,-1.09919024 Z" id="Path-12"></path>
+        </g>
+    </g>
+</svg>

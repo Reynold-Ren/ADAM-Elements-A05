@@ -1,0 +1,129 @@
+body {
+  font-size: 16px;
+  font-family: 'PingFangTC-Regular', 'Microsoft JhengHei';
+  color: #4a4a4a;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  @include media($desktop) {
+    max-width: 95%;
+  }
+}
+
+.product__fixedMenu {
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.7);
+  a {
+    font-size: 14px;
+    letter-spacing: 0.23px;
+    color: #ffffff;
+  }
+  img {
+    max-width: 165px;
+  }
+}
+
+.product {
+  &__spec {
+    padding-bottom: 11.125rem;
+    background-color: #ffffff;
+    color: black;
+    @include media($tablet-landscape) {
+      padding-bottom: 5rem;
+    }
+    @include media($tablet-portrait) {
+      padding-bottom: 2rem;
+    }
+    h3.title {
+      margin-bottom: 3.5rem;
+      @include media($tablet-portrait) {
+        margin-bottom: 3rem;
+      }
+    }
+    .spec__list {
+      max-width: 565px;
+      margin: 0 auto;
+      @include media($tablet-portrait) {
+        max-width: 220px;
+      }
+      &__item {
+        padding: 1.5rem 0;
+
+        @include media($tablet-portrait) {
+          padding: 0.75rem 0;
+        }
+        &:last-child {
+          border-bottom: none;
+        }
+        &__title {
+          flex: 0 0 135px;
+          margin-right: 4rem;
+          font-size: 1rem;
+          @include media($tablet-landscape) {
+            font-size: 0.875rem;
+            flex: 0 0 115px;
+            margin-right: 5.25rem;
+          }
+          @include media($tablet-portrait) {
+            font-size: 0.75rem;
+            flex: auto;
+            margin-right: 0;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+          }
+        }
+        &__content {
+          font-size: 1rem;
+          @include media($tablet-landscape) {
+            font-size: 0.875rem;
+          }
+        }
+      }
+    }
+    &__wireframe {
+      margin-top: 6.25rem;
+      @include media($tablet-landscape) {
+        max-width: 565px;
+        margin-top: 3rem;
+      }
+      > img {
+        flex: 0 0 30.33333%;
+        max-width: 30.33333%;
+        @include media($tablet-portrait) {
+          flex: auto;
+          max-width: 160px;
+          margin-bottom: 2.5rem;
+        }
+      }
+    }
+  }
+  &__merchandiseList {
+    padding-top: 5.625rem;
+    padding-bottom: 4rem;
+    @include media($tablet-landscape) {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    @include media($tablet-portrait) {
+      padding-top: 0rem;
+    }
+    h2.title {
+      margin-bottom: 2.5rem;
+      @include media($tablet-landscape) {
+      }
+    }
+    img {
+      @include media($tablet-portrait) {
+        width: 225px;
+      }
+    }
+    a {
+      color: #4a4a4a;
+      @include media($tablet-portrait) {
+        margin-bottom: 32px;
+      }
+    }
+  }
+}
