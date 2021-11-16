@@ -67,6 +67,7 @@ body {
     }
     .logo {
       margin-bottom: 20px;
+      opacity: 0;
       @include media($tablet-landscape) {
         max-width: 78.125%
       };

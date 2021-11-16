@@ -134,7 +134,7 @@ gulp.task(
   gulp.parallel('ejs', 'sass', 'babel', 'imageMin', function (done) {
     gulp.watch(['./source/sass/**/*.scss'], gulp.series('sass'));
     gulp.watch(['./source/**/*.ejs', './source/**/*.html'], gulp.series('ejs'));
-    gulp.watch(['./source/javascripts/**/*.js'], gulp.series('babel'));
+    gulp.watch(['./source/js/**/*.js'], gulp.series('babel'));
 
     browserSync.init({
       server: { baseDir: './public' },
