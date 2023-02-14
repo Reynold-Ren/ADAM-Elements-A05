@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="keywords" content="adam" />
+    <meta name="keywords" content="adamelements, 亞果元素" />
+    <meta
+      name="keywords"
+      content="ipod, iphone, ipad, flash drive, design stuff, accessory, 行動電源, 智慧手錶, 穿戴式裝置, 隨身碟, 保護套, U盘, 保护套, 智能手表, 連接線, 数据线"
+    />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <link rel="Shortcut Icon" type="image/x-icon" href="Images/logo_s.ico" />
+    <title>Adam Elements | Offers the best mobile smart products in the world.</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="Styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="Styles/global.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="Styles/all.css" />
+    <script type="application/javascript">
+      (function (w, d, t, r, u) {
+        w[u] = w[u] || [];
+        w[u].push({ projectId: '10000', properties: { pixelId: '10018443' } });
+        var s = d.createElement(t);
+        s.src = r;
+        s.async = true;
+        s.onload = s.onreadystatechange = function () {
+          var y,
+            rs = this.readyState,
+            c = w[u];
+          if (rs && rs != 'complete' && rs != 'loaded') {
+            return;
+          }
+          try {
+            y = YAHOO.ywa.I13N.fireBeacon;
+            w[u] = [];
+            w[u].push = function (p) {
+              y([p]);
+            };
+            y(c);
+          } catch (e) {}
+        };
+        var scr = d.getElementsByTagName(t)[0],
+          par = scr.parentNode;
+        par.insertBefore(s, scr);
+      })(window, document, 'script', 'https://s.yimg.com/wi/ytc.js', 'dotq');
+    </script>
+  </head>
+  <body>
+    <div class="header"></div>
+    <%- include('./header.html'); -%> <%- contents %> <%- include('./merchandiseList.html'); -%> <%-
+    include('./footer.html'); -%>
+    <!-- Script -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js" integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="Scripts/global.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <script type="text/javascript" src="Scripts/all.js"></script>
+  </body>
+</html>

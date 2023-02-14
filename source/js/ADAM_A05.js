@@ -51,7 +51,8 @@
   })
 
   scrollSection4Tl.to('.product__section4 .logo', 1, {opacity: 1})
-          .to('.product__section4 .progress span', 1, { width: '100%'}, '+=0.5')
+          .to('.product__section4 .gen-2 span', 1, { width: '100%'}, '+=0.5')
+          .to('.product__section4 .gen-1 span', 1, { width: '50%'}, '-=1')
           .to('.product__section4 .first', .7, { opacity: 1 })
           .to('.product__section4 .second', .7, { opacity: 1 })
           .to('.product__section4 .third', .7, { opacity: 1 })
