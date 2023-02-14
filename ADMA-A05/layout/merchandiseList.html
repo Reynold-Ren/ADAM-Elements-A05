@@ -1,0 +1,18 @@
+<% const products = [
+  { name: 'PeAk II HDMI', description: 'Ultra HD 4K 60Hz HDMI 高速影音傳輸線', link: 'https://www.adamelements.com.tw/product/detail864', photo: './images/CASA-Hub-A05_Components/images/PeAK-II-HDMI-Cable_01.png'},
+  { name: 'iKlips C', description: 'Lightning & USB-C iPhone 雙向智慧隨身碟 ', link: 'https://www.adamelements.com.tw/product/detail1062', photo: './images/CASA-Hub-A05_Components/images/iklipsc.png'},
+  { name: 'CASA M100+', description: 'USB3.1 Gen2 USB-C 對 A 充電傳輸線', link: 'https://www.adamelements.com.tw/product/detail474', photo: './images/CASA-Hub-A05_Components/images/M100_02_SL.png'},
+]; %>
+
+<div class="product__merchandiseList">
+  <h2 class="title text-center mx-auto">更多推薦商品</h2>
+  <div class="merchandise__list d-flex f-jc-between f-jc-md-center mx-auto f-w-wrap">
+    <% products.forEach(ele => { %>
+    <a href="<%- ele.link -%>" target="_blank" class="text-center">
+      <img src="<%- ele.photo -%>" alt="" />
+      <h3><%- ele.name -%></h3>
+      <p class="content mb-3"><%- ele.description -%></p>
+    </a>
+    <% }); %>
+  </div>
+</div>

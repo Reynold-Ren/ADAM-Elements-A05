@@ -528,6 +528,9 @@ body {
         max-width: 100%;
         margin-bottom: 8px;
       };
+      &.logo {
+        width: 688px;
+      }
     }
     > h2.title {
       color: white;
@@ -1223,7 +1226,6 @@ body {
           text-align: left;
           @include media($tablet-portrait) {
             text-align: center;
-            
           };
           &:nth-child(1) {
             @include media($tablet-landscape) {
@@ -1305,6 +1307,9 @@ body {
                 font-size: 20px;
                 padding: 16px 0 4px;
               };
+              @include media($tablet-portrait) {
+                font-size: 32px;
+              };
             }
             p.content {
               color: #bbb;
@@ -1319,12 +1324,21 @@ body {
         }
       }
       &:nth-child(2) {
+        position: relative;
         h2.title {
           color: #5786cb;
           margin-bottom: 54px;
           @include media($tablet-landscape) {
             color: white;
             margin-bottom: 24px;
+          };
+          @include media($tablet-portrait) {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            transform: translateY(-50%);
           };
         }
         img {
